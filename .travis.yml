@@ -1,3 +1,13 @@
+notifications:
+  webhooks:
+    urls:
+      - https://webhook.atomist.com/atomist/travis/teams/T047SFFHY
+    on_success: always
+    on_failure: always
+    on_start: always
+    on_cancel: always
+    on_error: always
+    
 language: elixir
 elixir:
   - 1.6.0
